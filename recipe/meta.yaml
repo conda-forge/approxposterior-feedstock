@@ -1,6 +1,6 @@
 {% set name = "approxposterior" %}
-{% set version = "0.1.post1" %}
-{% set sha256 = "11aea99f57c264ed78e12a05e8ecff8a3260768a334703cf673d34c07f9f7e07" %}
+{% set version = "0.2rc0" %}
+{% set sha256 = "95b88bccf0e8ed6ed02079d2dfe30956ced6b0b88057f1f35adf0a6474477ab6" %}
 
 
 package:
@@ -30,11 +30,12 @@ requirements:
     - emcee
     - corner
     - scikit-learn
+    - h5py
 
 test:
   imports:
     - approxposterior
-    - approxposterior.bp
+    - approxposterior.approx
 
 about:
   home: http://github.com/dflemin3/approxposterior
