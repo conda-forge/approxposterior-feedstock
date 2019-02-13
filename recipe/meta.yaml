@@ -20,14 +20,14 @@ build:
 requirements:
   host:
     - pip
-    - python >= 3.5
+    - python >=3.5
   run:
-    - python >= 3.5
+    - python >=3.5
     - numpy
     - matplotlib
     - scipy
     - george
-    - emcee > 2.2.1
+    - emcee >2.2.1
     - corner
     - scikit-learn
     - h5py
