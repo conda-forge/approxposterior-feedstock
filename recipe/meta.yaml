@@ -1,6 +1,6 @@
 {% set name = "approxposterior" %}
-{% set version = "0.3" %}
-{% set sha256 = "3e45f05cd73832cd91a0e1840fc264f4dbbe7b2ab76a16138ac08af1051460e3" %}
+{% set version = "0.4" %}
+{% set sha256 = "5a6a64a7291d17450771f2471f92253511e77c86e82b6dcd04d5ffb4a64c1ebc" %}
 
 
 package:
@@ -31,7 +31,6 @@ requirements:
     - corner
     - scikit-learn
     - h5py
-    - pyDOE
 
 test:
   imports:
