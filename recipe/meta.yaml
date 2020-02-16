@@ -14,7 +14,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=3.5
     - numpy
-    - matplotlib
+    - matplotlib-base
     - scipy
     - george
     - emcee >=3
